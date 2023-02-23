@@ -68,7 +68,7 @@ function setup() {
         fill('#FFFFFF')
         ellipse(230,220,8,8)
         
-//BAGIAN KANAN       
+//GAMBAR BAGIAN KANAN       
         
 //ekor
 fill('#FFCC33')
@@ -89,10 +89,10 @@ fill('#FFB266')
 ellipse(850,270,20,20)
 
 fill('#FFCC33') //tangan
-var x = 780 + 10 * Math.sin(PI/3*j) //20 itu jaraknya
+var x = 780 + 10 * Math.sin(PI/3*j) 
 j+=1
 arc(x, 300, 40,80,0,PI)
-var a = 878 + 10 * Math.sin(PI/3*j) //20 itu jaraknya
+var a = 878 + 10 * Math.sin(PI/3*j) 
 j+=1
 arc(a, 300, 40,80,0,PI)
 
@@ -118,17 +118,17 @@ ellipse(645,220,30,30)
 fill('#FFFFFF')
 ellipse(720,220,30,30)
 fill('#000000')
-var w = 650 + 3 * Math.sin(PI/3*j) //20 itu jaraknya
+var w = 650 + 3 * Math.sin(PI/3*j) 
 j+=1
 ellipse(w,220,17,17)
 fill('#000000')
 ellipse(725,220,17,17)
 fill('#FFFFFF')
-var y = 655 + 3 * Math.sin(PI/3*j) //20 itu jaraknya
+var y = 655 + 3 * Math.sin(PI/3*j) 
 j+=1
 ellipse(y,220,8,8)
 fill('#FFFFFF')
-var z = 730 + 3 * Math.sin(PI/3*j) //20 itu jaraknya
+var z = 730 + 3 * Math.sin(PI/3*j) 
 j+=1
 ellipse(z,220,8,8)    
 
